@@ -1,0 +1,72 @@
+##########################
+           VIM          
+##########################
+
+:w!! = save as sudo
+
+:G = git commands
+
+cs"' = change surrounding " to '
+ds' = delete surrounding '
+ysiw[ = you surround inner word with space
+cs[} = change surround without space
+yss = surround entire line in brackets
+
+al = a line
+il = in line
+
+ai = auto-indent
+iI = auto-indent same intentation
+
+ae = entire content
+ie = entire content without empty lines
+
+c-n = NERDTree
+
+gc{motion} = toggle comment for {motion}
+gcc = toggle comment [count] line
+gcu = uncomment current and adjacent lines
+:[range]Commentary = ex: :g/TODO/Commentary
+
+c-p = CtrlP in find mode
+  c-f = cycle modes
+  c-d = switch to filename only
+  c-r = switch to regexp
+  c-j/k = move between results
+  c-t/v/x = open entry in tab/split
+  c-y = create new file and its parents dir
+  c-z = mark/unmark multiple files
+    c-o = open them
+
+<leader>hp/hs/hu = preview/stage/undo hunks
+[c / ]c = jump between hunks
+
+cp = copy into system clipboard
+cv = paste from system clipboard
+
+<leader>F = auto format code
+<leader>p = toggle paste mode
+<leader><BS> = buffer navigation
+<leader>d = black hole delete
+,g = fast global command
+,e fast project-based editing
+,f = :find *
+,v = :vert sfind *
+,F = special find
+,V = special vert
+(; = something ?
+(; = something else ?
+<leader>v = edit vimrc
+<leader>f = ?
+<leader>z = edit zshrc
+<leader>t = edit ~/TODO
+
+<leader>+ = resize height --> to change
+<leader>- = resize height --> to change
+
+,t = :tjump /
+,d = :dlist /
+,i = :ilist /
+
+,G = :Grep
+
