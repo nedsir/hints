@@ -2,5 +2,121 @@
            ZSH          
 ##########################
 
+c+A = move to beginning of line
+c+B = moves backward one character
+c+C = halts the current command
+c+D = logs out of current session, similar to exit
+c+E = moves to end of line
+c+F = moves forward one character
+c+G = aborts the current editing command and ring the terminal bell
+c+J = same as RETURN
+c+K = deletes (kill) forward to end of line
+c+L = clears screen and redisplay the line
+c+M = same as RETURN
+c+N = next line in command history
+c+O = same as RETURN, then displays next line in history file
+c+P = previous line in command history
+c+R = searches backward
+c+S = searches forward
+c+T = transposes two characters
+c+U = kills backward from point to the beginning of line
+c+V = makes the next character typed verbatim
+c+W = kills the word behind the cursor
+c+X = lists the possible filename completions of the current word
+c+Y = retrieves (yank) last item killed
+c+Z = stops the current command
+  - resume with fg in the foreground or bg in the background
 
-test test
+x = extract an archive
+cd ..... = cd ../../../..
+/ = cd /
+~ = cd ~
+md = mkdir -p
+
+g = git
+gaa = git add -all
+gcam = git commit -am
+gco = git checkout
+gd = git diff
+ggpull = git pull origin $(current_branch)
+
+v = edit current command in Vim
+ta = tmux attach -t
+tad = tmux attach -d -t
+ts = tmux new-session -s
+tl = tmux list-sessions
+tkss = tmux kill-session -t
+
+sc-* = systemctl *
+
+a = ansible
+aconf = ansible-config
+acon = ansible-console
+ainv = ansible-inventory
+aplaybook = ansible-playbook
+adoc = ansible-doc
+agal = ansible-galaxy
+apull = ansible-pull
+aval = ansible-vault
+
+j foo = jump to a dir that contains foo
+jc = jump to child dir
+jo = open dir in file manager
+
+ccat = colorized cat
+cless = colorized less
+
+l = ls -lFh
+la = ls -lAFh
+lr = ls -tRFh
+ldot = ls -ld .* list dot files
+lS = only shows size and name
+lart = ls -1Fcart
+
+dud = du -d 1 -h
+duf = du -sh
+t = tail -f
+
+fd = find a dir with given name
+ff = find a file with given name
+sgrep = useful for searching within files
+
+h = history
+p = ps -f
+
+H = | head
+T = | tail
+G = | grep
+L = | less
+LL = 2>&1 | less
+CA = 2>&1 | cat
+NE = 2 > /dev/null
+NUL = > /dev/null 2>&1
+P = stderr to stdout and pygmentize
+
+acs = apt-cache search
+aps = search installed packages
+app = apt-cache policy
+ad = update
+adg = update & upgrade
+adu = update & dist-upgrade
+ai = install
+ap = purge
+ar = remove
+di = install .deb in pwd
+dia = install all .deb in pwd
+
+dco = docker-compose
+dcps = docker-compose ps
+
+k = kubectl
+kca = kubectl --all-namespaces
+kaf = kubectl apply -f
+keti = kubectl exec -ti
+
+rsync-copy = rsync -avz --progress -h
+rsync-move
+rsync-update
+rsync-synchronize
+
+c-[ = edit command with vi-mode

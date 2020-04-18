@@ -2,6 +2,56 @@
            VIM          
 ##########################
 
+:close = close current pane
+K = open man page for word under cursor
+^ = jump to first non-blank character of line
+% = move to matching character
+; = repeat previous f, t, F or T movement
+, = repeat previous f, t, F or T movement, backwards
+J = join line below
+:noh = remove highlighting of search matches
+
+:e file = edit file in new buffer
+:bn = go to next buffer
+:bp = go to previous buffer
+:bd = delete buffer
+:ls = list all open buffers
+:sp = open file in split window
+:vsp = open file in vertical split
+c+w s = split window
+c+w w = switch window
+c+w q = quit window
+c+w v = split vertical
+
+:tabnew file = open file in new tab
+c+w T = move current split window into own tab
+gt = move to next tab
+gT = move to previous tab
+#gt = move to tab #
+:tabc = close current tab and all its windows
+:tabo = close all tabas except current one
+
+za = toggle folds
+zM = close all folds
+zR = open all folds
+
+c-a = increment number
+c-x = decrement number
+
+c-] = jump to def
+g] = see all defs
+
+ma = mark this cursor position as a
+`a = jump to cursor position a
+'a = jump to beginning of line a
+
+]s = move to next misspelled word
+[s = move to previous misspelled word
+z= = suggest spelling
+zg = add word to spell list
+zw = mark word as misspelled
+zu = suggest words
+
 :w!! = save as sudo
 
 :G = git commands
