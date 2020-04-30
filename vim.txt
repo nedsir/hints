@@ -72,6 +72,11 @@ ae = entire content
 ie = entire content without empty lines
 
 c-n = NERDTree
+  o = open file
+  i = open file in horizontal split
+  s = open file in vertical split
+  I = toggle hiddden files
+  m = show menu
 
 gc{motion} = toggle comment for {motion}
 gcc = toggle comment [count] line
